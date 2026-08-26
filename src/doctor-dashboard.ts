@@ -98,7 +98,7 @@ export function renderDoctorDashboard(container: HTMLDivElement) {
             </div>
 
             <div class="space-y-3">
-              ${pendingProblems.map((p, actualIndex) => {
+              ${pendingProblems.map((p) => {
                 const index = problems.indexOf(p);
                 return `
                   <div class="border-2 border-yellow-200 bg-yellow-50 rounded-xl p-5 hover:border-yellow-400 hover:shadow-md transition">
